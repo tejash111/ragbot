@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   devIndicators: false,
   // Enable instrumentation to polyfill localStorage
   experimental: {
-    instrumentationHook: true,
+    clientInstrumentationHook: true,
   },
 };
 
